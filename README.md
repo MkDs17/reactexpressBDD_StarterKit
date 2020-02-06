@@ -8,6 +8,8 @@ Server Dependancies :
 
 * Nodemon
 * Concurrently
+* Mysql2    
+* Sequelize
 
 ---
 
@@ -21,5 +23,38 @@ Client Dependancies :
 ---
 
 Run command `yarn install / npm install` into both Server & Client Forlder
+
+---
+
+In server folder, add a config files named **config.json**: 
+
+```
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "dbname",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "dbname",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": "password",
+    "database": "dbname",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
+```
 
 
