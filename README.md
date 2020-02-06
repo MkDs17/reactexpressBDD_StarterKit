@@ -1,4 +1,4 @@
-# This is my React/Express JS starter Pack with DB
+# This is my React/Express JS starter Pack with DB (MySQL)
 
 > Express.js____React.js____MySQL
 
